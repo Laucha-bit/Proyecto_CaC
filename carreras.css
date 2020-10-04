@@ -1,0 +1,41 @@
+.lista_carreras{
+    display: flex;
+    flex-direction: row;
+}
+    .filtros{
+        flex: 1;
+        margin-left: 0;
+    }
+    .filtros h3{
+        margin-left: 20%;
+    }
+    .filtros ul{
+        margin-left: 0;
+    }
+    .filtros li{
+        border-bottom: solid rgba(63, 94, 156, 0.397);
+        margin-left: 0;
+    }
+    .filtros li :hover{
+        color: #00759c8a;
+    }
+    .filtros a{
+        text-decoration: none;
+        color: #00759c;
+    }
+    .listado{
+        flex: 3;
+    }
+    .listado h3{
+        background: rgba(0, 0, 0, 0.068);
+        border-bottom: solid #00759c;
+        color: #00759c;
+    }
+    li{
+        list-style: none;
+    }
+    @media (max-width:950px){
+        .lista_carreras{
+            flex-direction: column;
+        }
+    }

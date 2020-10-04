@@ -1,0 +1,27 @@
+.actividades{
+    display: flex;
+    flex-direction: row;
+}
+.aside_eventos{
+    flex: 1;
+}
+.eventos{
+    flex: 4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1px;
+}
+.eventos div{
+    background: rgba(216, 210, 210, 0.37);
+    text-align: justify;
+}
+.eventos div img{
+    margin: auto;
+    width: 100%;
+}
+.eventos h4{
+    color:  #00759c;
+}
+.eventos p{
+    color: #494848;
+}

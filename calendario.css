@@ -1,0 +1,51 @@
+
+.calendario{
+    display: flex;
+    flex-direction: row;
+
+}
+.calendario a{
+    text-decoration: none;
+    color: #00759c;
+}
+.calendario li{
+    list-style: none;
+}
+.tabla{
+    flex: 3;
+}
+.aside{
+    flex: 1;
+    margin-top: 5%;
+}
+.aside img{
+    width: 100%;
+    height: 80%;
+    border-bottom: solid rgba(63, 94, 156, 0.397);
+    margin-left: 0;
+    list-style: none;
+}
+table, th, tr, td{
+    border: solid rgba(50, 92, 150, 0.712);
+    border-collapse: collapse;
+}
+th{
+    background: rgba(77, 75, 75, 0.274);
+    height: 4em;
+}
+td{
+    height: 4em;
+    width: 50%;
+    background-color: rgba(123, 150, 189, 0.062);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+@media (max-width:950px){
+    .aside img{
+        display: none;
+    }
+    .calendario{
+        flex-direction: column;
+    }
+    
+}

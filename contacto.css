@@ -1,0 +1,23 @@
+.contactos{
+    display: flex;
+    flex-direction: row;
+}
+
+.mail{
+    flex: 2;
+    display: block;
+    flex-direction: column;
+}
+.telefonos{
+    flex: 5;
+}
+.lista_contactos{
+    background: #a8a7a78c;
+    width: 60%;
+}
+.lista_contactos div{
+    border-bottom: #00759c;
+}
+.lista_contactos h4{
+    color: #00759c;
+}
